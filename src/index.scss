@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  @media screen and (max-width: 575px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 991px) {
+    font-size: 17px;
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    font-size: 16px;
+  }
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(Font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(Font/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: RalewayB;
+  src: url(Font/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: RalewayEB;
+  src: url(Font/Raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: RalewaySB;
+  src: url(Font/Raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(Font/Oswald/Oswald-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratB;
+  src: url(Font/Montserrat//Montserrat-Bold.ttf);
+}
+
+.LayOut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f3f8;
+  height: 100vh;
+}
+
+.dark {
+  background-color: #dcdde1;
+
+  .LayOut {
+    background-color: #282828;
+  }
+}

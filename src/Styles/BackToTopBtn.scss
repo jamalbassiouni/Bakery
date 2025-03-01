@@ -1,0 +1,50 @@
+@import "../Styles/Variable";
+@import "../Styles/Placeholder";
+
+.style {
+  @extend %center;
+  position: fixed;
+  bottom: 0.9375rem;
+  right: 0.9375rem;
+  width: 65px;
+  height: 65px;
+  color: $darkGray;
+  background-color: $brown;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  @extend %boxShadow;
+  transition: opacity 1s, transform 2s;
+  opacity: 0;
+  transform: translateY(100px);
+
+  &.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .arrow {
+    animation: BackToTopBtn 1.2s linear infinite alternate-reverse;
+  }
+
+  @keyframes BackToTopBtn {
+    0% {
+      transform: translateY(-15%);
+    }
+
+    100% {
+      transform: translateY(0.1rem);
+    }
+  }
+
+  &:hover .arrow {
+    animation: BackToTopBtn 0.5s linear infinite alternate-reverse;
+  }
+}
+
+.dark {
+  .style {
+    background-color: $darkLogic
+  }
+}

@@ -1,0 +1,77 @@
+@import "../Styles/Variable";
+@import "../Styles/Placeholder";
+
+.MultiLngMenu {
+  .menu-icon svg {
+    font-size: 2.0625rem;
+    margin: 0 1.25rem 0 0;
+    color: $darkGray;
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    background-color: $brightBg;
+    border-radius: 1.25rem;
+    padding: 2.1875rem 1.5625rem 0.9375rem;
+    position: fixed;
+    top: 95px;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      height: 20px;
+      width: 20px;
+      background-color: $brightBg;
+      transform: rotate(45deg);
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        margin: 0 0 15px 0;
+
+        a {
+          color: $black;
+          text-transform: capitalize;
+
+          &:hover {
+            border-color: $black;
+          }
+        }
+      }
+    }
+  }
+
+  .flag {
+    width: 20px;
+    height: 15px;
+    border-radius: 0.125rem;
+  }
+}
+
+.dark {
+  .dropdown-menu {
+    background-color: $gray;
+
+    ul li a {
+      color: $brightBg;
+
+      &:hover {
+        border-color: $darkGray;
+      }
+    }
+  }
+
+  .dropdown-menu::before {
+    background-color: $gray;
+  }
+}

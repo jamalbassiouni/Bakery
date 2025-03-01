@@ -1,0 +1,54 @@
+@import "../Styles/Variable";
+@import "../Styles/Placeholder";
+
+.bg-footer {
+  background-color: $black;
+  padding: 3.125rem 0 3.125rem;
+
+  figure {
+    text-align: center;
+    padding: 0 0 3.125rem;
+
+    img {
+      width: 130px;
+    }
+  }
+
+  .text-caption {
+    padding: 0 0 3.4375rem;
+
+    h6,
+    p {
+      color: $white;
+    }
+
+    h6 {
+      text-transform: capitalize;
+      font: 400 1.125rem Roboto;
+    }
+
+    p {
+      font: 400 0.875rem OpenSans;
+    }
+  }
+
+  .group-icon {
+    @extend %center;
+    color: $mainBg;
+
+    font: {
+      size: 1.6875rem;
+      weight: 400;
+    }
+
+    i {
+      margin: 0 1.4375rem 0 0;
+      transition: all 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        color: $brown;
+      }
+    }
+  }
+}

@@ -1,0 +1,367 @@
+@import "../Styles/Variable";
+@import "../Styles/Placeholder";
+
+.aboutUs {
+  .row {
+    @extend %alignCenter;
+    min-height: 100vh;
+
+    .spacing {
+      padding: 0;
+    }
+
+    figure {
+      background: url(../Assets/Chief2.jpg) 100% 50% / cover;
+      height: 72vh;
+      width: 77%;
+    }
+
+    @media screen and (min-width: 340px) and (max-width: 576px) {
+      figure {
+        width: 98%;
+        height: 45vh;
+      }
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 719px) {
+      figure {
+        width: 98%;
+      }
+    }
+
+    @media screen and (min-width: 720px) and (max-width: 767px) {
+      figure {
+        width: 98%;
+      }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 939px) {
+      figure {
+        width: 98%;
+        height: 60vh;
+      }
+    }
+
+    @media screen and (min-width: 940px) and (max-width: 992px) {
+      figure {
+        width: 98%;
+        height: 65vh;
+      }
+    }
+
+    @media screen and (min-width: 993px) and (max-width: 1350px) {
+      figure {
+        width: 95%;
+        height: 65vh;
+      }
+    }
+
+    .content {
+      padding: 3.125rem 3.125rem 3.125rem 0.625rem;
+
+      h6 {
+        font: 600 1.125rem RalewaySB;
+        text-transform: uppercase;
+        margin: 0 0 1.25rem 0;
+      }
+
+      h1 {
+        font: 800 2.8125rem RalewayEB;
+        margin: 0 0 1.25rem 0;
+      }
+
+      .flex {
+        @extend %alignCenter;
+
+        .icons {
+          margin: 0 0.25rem 0 0;
+          font-size: 1.125rem;
+        }
+      }
+
+      p {
+        font: 400 1rem OpenSans;
+        text-transform: capitalize;
+        margin: 0 0 1.875rem 0;
+        line-height: 2.8125rem;
+      }
+
+      a {
+        padding: 1.25rem 2.875rem;
+        font: 700 0.875rem OpenSans;
+        transition: all 0.5s;
+        text-transform: uppercase;
+        letter-spacing: 0.0625rem;
+        border-radius: 0.625rem;
+        border: 0.125rem solid $gray;
+        color: $gray;
+
+        &:hover {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 340px) and (max-width: 767px) {
+    .row {
+      padding: 6.875rem 0 1.875rem 0;
+    }
+  }
+}
+
+.dark {
+  .aboutUs {
+    .row {
+      background-color: $white;
+    }
+  }
+}
+
+.baked-daily {
+  background-color: $mainBg;
+  margin: 0 0 68.9375rem 0;
+  height: 600px;
+
+  @media screen and (min-width: 340px) and (max-width: 359px) {
+    margin: 0 0 59.125rem 0;
+    height: 1700px;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 444px) {
+    margin: 0 0 56.875rem 0;
+    height: 1650px;
+  }
+
+  @media screen and (min-width: 445px) and (max-width: 576px) {
+    margin: 0 0 53.125rem 0;
+    height: 1610px;
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 719px) {
+    margin: 0 0 50.375rem 0;
+    height: 1710px;
+  }
+
+  @media screen and (min-width: 720px) and (max-width: 767px) {
+    margin: 0 0 53.25rem 0;
+    height: 1670px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 939px) {
+    margin: 0 0 56.375rem 0;
+    height: 1750px;
+  }
+
+  @media screen and (min-width: 940px) and (max-width: 992px) {
+    margin: 0 0 57.625rem 0;
+    height: 1750px;
+  }
+
+  .row {
+    justify-content: center;
+    padding: 5.4375rem 0;
+
+    h2 {
+      font: 800 2.8125rem RalewayEB;
+      text-transform: capitalize;
+      padding: 1.875rem 0;
+      margin: 0 0 4.3125rem 0;
+      color: $white;
+    }
+
+    p {
+      font: 400 1rem OpenSans;
+      padding: 0.625rem 0 3.875rem;
+      color: $black;
+      line-height: 1.8;
+    }
+
+    .bg-dough {
+      background-color: $white;
+      padding: 1.25rem;
+      margin: 0 0 3rem 0;
+      border-radius: 1.875rem;
+
+      img {
+        object-fit: cover;
+        object-position: 50% 50%;
+        text-align: center;
+        height: 280px;
+        width: 100%;
+        border-radius: 1.25rem;
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          height: 370px;
+        }
+      }
+    }
+
+    .bg-toast {
+      background-color: $white;
+      padding: 1.25rem;
+      border-radius: 1.875rem;
+
+      img {
+        text-align: center;
+        height: 475px;
+        width: 100%;
+        border-radius: 1.25rem;
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          height: 500px;
+        }
+      }
+    }
+
+    .bg-chief {
+      background-color: $white;
+      padding: 1.25rem 1.25rem 3.75rem;
+      border-radius: 1.875rem;
+
+      .p-chief {
+        padding: 0.625rem 0 2.8125rem;
+      }
+
+      img {
+        height: 495px;
+        width: 100%;
+        border-radius: 1.25rem;
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          height: 570px;
+        }
+      }
+
+      a {
+        padding: 1.25rem 2.875rem;
+        font: 700 1.125rem OpenSans;
+        margin: 0 0 3.25rem 0;
+        transition: all 0.5s;
+        letter-spacing: 0.0625rem;
+        text-transform: uppercase;
+        border: 0.0625rem solid $black;
+        border-radius: 0.625rem;
+        color: $black;
+
+        &:hover {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.dark {
+  .baked-daily {
+    background-color: $darkBg;
+  }
+}
+
+.bg-qualityBread {
+  background-color: $mainBg;
+  padding: 0 0 5.625rem 0;
+
+  figure {
+    background: url(../Assets/Baker.jpg) 50% 32% / cover;
+    border-radius: 1.25rem;
+    min-height: 662px;
+
+    @media screen and (min-width: 340px) and (max-width: 576px) {
+      background-position: 50% 50%;
+      min-height: 310px;
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 719px) {
+      background-position: 50% 50%;
+      min-height: 310px;
+    }
+
+    @media screen and (min-width: 720px) and (max-width: 767px) {
+      background-position: 50% 50%;
+      min-height: 310px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 939px) {
+      background-position: 50% 40%;
+      min-height: 390px;
+    }
+
+    @media screen and (min-width: 940px) and (max-width: 992px) {
+      background-position: 50% 40%;
+      min-height: 393px;
+    }
+  }
+
+  .row {
+    .spacing {
+      margin: -25.0625rem 0 0 0;
+
+      @media screen and (min-width: 340px) and (max-width: 576px) {
+        margin: -10.625rem 0 0 0;
+      }
+
+      @media screen and (min-width: 577px) and (max-width: 719px) {
+        margin: -10.625rem 0 0 0;
+      }
+
+      @media screen and (min-width: 720px) and (max-width: 768px) {
+        margin: -11.25rem 0 0 0;
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 939px) {
+        margin: -13.625rem 0 0 0;
+      }
+
+      @media screen and (min-width: 940px) and (max-width: 992px) {
+        margin: -14.375rem 0 0 0;
+      }
+    }
+
+    h2 {
+      font: 800 2.8125rem RalewayEB;
+      margin: 0 0 2.75rem 0;
+      text-transform: capitalize;
+      margin: 2.75rem 0 0 0;
+      text-align: center;
+      color: $white;
+    }
+
+    p {
+      font: 400 1rem OpenSans;
+      line-height: 1.8;
+      padding: 0.875rem 1.875rem;
+      color: $white;
+    }
+
+    .text {
+      margin: 0 0 1.25rem 0;
+    }
+
+    a {
+      padding: 1.25rem 3.375rem;
+      font: 700 1.125rem OpenSans;
+      margin: 0 0 3.25rem 0;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      margin: 0 0 0 1.875rem;
+      letter-spacing: 0.0625rem;
+      border: 0.0625rem solid $white;
+      border-radius: 0.5rem;
+      color: $white;
+
+      &:hover {
+        background-color: $white;
+        color: $black;
+      }
+    }
+  }
+}
+
+.dark {
+  .bg-qualityBread {
+    background-color: $darkBg;
+  }
+}

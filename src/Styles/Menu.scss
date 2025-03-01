@@ -1,0 +1,531 @@
+@import "../Styles/Variable";
+@import "../Styles/Placeholder";
+
+.menus {
+  figure {
+    background: url(../Assets/Kitchen.jpg) 50% 50% / cover;
+    height: 50.9259vh;
+
+    @media screen and (min-width: 340px) and (max-width: 576px) {
+      background-position: 62.5%;
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 719px) {
+      background-position: 65%;
+    }
+
+    @media screen and (min-width: 720px) and (max-width: 768px) {
+      background-position: 45%;
+    }
+
+    @media screen and (min-width: 940px) and (max-width: 992px) {
+      background-position: 45%;
+    }
+  }
+
+  .color {
+    background-color: $mainBg;
+    min-height: 50vh;
+
+    .top {
+      margin: -5.625rem 0 1.5625rem 0;
+    }
+
+    .item {
+      min-height: 320px;
+      background-color: $white;
+      padding: 1.875rem;
+      border-radius: 1.25rem;
+      margin: 0 0 6.25rem 0;
+
+      h2 {
+        margin: 0 0 1.1875rem 0;
+        font: 700 3rem Oswald;
+        color: $mainBg;
+      }
+
+      h5 {
+        margin: 0 0 1.625rem 0;
+        font: 700 1.25rem RalewayB;
+        text-transform: capitalize;
+        color: $black;
+      }
+
+      p {
+        font: 400 1.0625rem OpenSans;
+        font-style: italic;
+        color: $black;
+      }
+    }
+  }
+}
+
+.dark {
+  .menus {
+    .color {
+      background-color: $darkBg;
+
+      .item {
+        background-color: $darkWallPaper;
+      }
+    }
+  }
+}
+
+.traditions {
+  background-color: $mainBg;
+  text-align: center;
+  color: $white;
+  padding: 3.125rem 0 2.9375rem;
+
+  h1 {
+    margin: 0 0 2.1875rem 0;
+    font: 800 2.8125rem RalewayEB;
+    text-transform: capitalize;
+  }
+
+  .row {
+    @extend %center;
+
+    .spacing {
+      padding: 2.5rem 0.625rem;
+      border-bottom: 0.1008px solid $borderColor;
+    }
+
+    h4 {
+      font: 800 1.5rem RalewayEB;
+      margin: 0 0 1.25rem 0;
+    }
+
+    p {
+      font: 400 1.125rem OpenSans;
+      font-style: italic;
+      line-height: 1.6;
+    }
+  }
+
+  :nth-child(3) {
+    margin: 0 0 4.375rem 0;
+  }
+
+  a {
+    padding: 1.25rem 2.875rem;
+    font: 700 0.875rem OpenSans;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    border-radius: 0.625rem;
+    letter-spacing: 0.0625rem;
+    border: 0.125rem solid $white;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $mainBg;
+    }
+  }
+}
+
+.dark {
+  .traditions {
+    background-color: $darkBg;
+  }
+}
+
+.bg-goal {
+  background-color: $mainBg;
+  padding: 15rem 0 0.625rem;
+
+  .figureWoman {
+    max-width: 696px;
+    height: 515px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1.25rem;
+    }
+  }
+
+  .bg-text {
+    padding: 3.75rem 3.125rem;
+    background-color: $white;
+    border-radius: 1.25rem;
+    max-width: 696px;
+    height: 515px;
+    margin: -41.25rem 0 0 35.9375rem;
+
+    h3 {
+      font: 800 1.875rem RalewayEB;
+      padding: 0 0 1.875rem;
+      color: $black;
+    }
+
+    p {
+      font: 500 1rem OpenSans;
+      padding: 0 0 5.625rem;
+      margin: 0 0 2.5rem 0;
+      line-height: 1.9;
+      color: $black;
+    }
+
+    a {
+      padding: 1.25rem 2.875rem;
+      font: 700 0.875rem OpenSans;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      border-radius: 0.625rem;
+      letter-spacing: 0.0625rem;
+      border: 0.125rem solid $black;
+      color: $black;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+
+  .figureBasket {
+    max-width: 442px;
+    height: 339px;
+
+    img {
+      margin: -4.375rem 0 0 28.125rem;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1.25rem;
+      border: 0.625rem solid $white;
+    }
+  }
+
+  @media screen and (min-width: 340px) and (max-width: 404px) {
+    padding: 35rem 0 0.25rem;
+
+    .bg-text {
+      padding: 0.625rem 0.6875rem;
+      margin: -62.5rem 0 0 0;
+
+      p {
+        margin: 0 0 -3.9375rem 0;
+      }
+    }
+
+    .figureBasket {
+      max-width: 280px;
+      height: 289px;
+
+      img {
+        margin: -4.375rem 0 0 1.4375rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 403px) and (max-width: 576px) {
+    padding: 35rem 0 0.25rem;
+
+    .bg-text {
+      padding: 1.25rem 0.6875rem;
+      margin: -62.5rem 0 0 0;
+
+      p {
+        margin: 0 0 -0.9375rem 0;
+      }
+    }
+
+    .figureBasket {
+      max-width: 300px;
+      height: 289px;
+
+      img {
+        margin: -4.375rem 0 0 1.875rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 800px) {
+    padding: 35rem 0 0.25rem;
+
+    .bg-text {
+      padding: 3.75rem 2.5rem;
+      margin: -61.25rem -1.125rem 0 5rem;
+
+      p {
+        margin: 0 0 -1.875rem 0;
+      }
+    }
+
+    .figureBasket {
+      img {
+        margin: -4.375rem 0 0 5.875rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 989px) {
+    padding: 34.375rem 0 0.1875rem;
+
+    .bg-text {
+      padding: 3.75rem 2.5rem;
+      margin: -60rem -2.5rem 0 10rem;
+
+      p {
+        margin: 0 0 -0.625rem 0;
+      }
+    }
+
+    .figureBasket {
+      img {
+        margin: -4.375rem 0 0 18rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 990px) and (max-width: 1197px) {
+    .bg-text {
+      margin: -41.25rem 0 0 25.625rem;
+
+      p {
+        margin: 0 0 -1.25rem 0;
+      }
+    }
+
+    .figureBasket {
+      img {
+        margin: -4.375rem 0 0 15.625rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1198px) and (max-width: 1399px) {
+    .bg-text {
+      margin: -41.25rem 0 0 31.875rem;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .figureBasket {
+      img {
+        margin: -4.375rem 0 0 21.875rem;
+      }
+    }
+  }
+}
+
+.dark {
+  .bg-goal {
+    background-color: $darkBg;
+
+    .bg-text {
+      background-color: $darkWallPaper;
+    }
+
+    .figureBasket {
+      img {
+        border-color: $darkWallPaper;
+      }
+    }
+  }
+}
+
+.price {
+  padding: 4.4375rem 0;
+
+  h2 {
+    text-align: center;
+    font: 800 2.8125rem RalewayEB;
+    padding: 0 0 4.625rem 0;
+  }
+
+  .row {
+    justify-content: space-between;
+    align-items: center;
+
+    .figureSourdough {
+      background: url(../Assets/SourdoughLoaf.jpg) 5% 50% / cover;
+      height: 312px;
+    }
+
+    .figureBaguette {
+      background: url(../Assets/Baguette.jpg) 100% 50% / cover;
+      height: 312px;
+    }
+
+    .figureFarmers {
+      background: url(../Assets/FarmersLoaf.jpg) 50% 50% / cover;
+      height: 312px;
+    }
+
+    .figureRound {
+      background: url(../Assets/RoundBread.jpg) 5% 50% / cover;
+      height: 312px;
+    }
+
+    figure {
+      border-radius: 1.875rem;
+    }
+
+    .spacing {
+      padding: 1.875rem 2.5rem;
+    }
+
+    h4 {
+      font: 800 1.5rem RalewayEB;
+      margin: 0 0 1.25rem 0;
+      text-transform: capitalize;
+      color: $black;
+    }
+
+    p {
+      font: 700 1rem OpenSans;
+      margin: 0 0 1.25rem 0;
+      color: $black;
+    }
+
+    h5 {
+      font: 700 1.5625rem OpenSans;
+      color: $mainBg;
+    }
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 991px) {
+  .price {
+    margin: 0 0 1.25rem 0;
+
+    .row {
+      .farmerText {
+        order: 3;
+      }
+
+      .farmerFigure {
+        order: 2;
+      }
+
+      .roundText {
+        order: 5;
+      }
+
+      .roundFigure {
+        order: 4;
+      }
+
+      .figureSourdough,
+      .figureRound {
+        background-position: 5% 75%;
+        height: 441px;
+      }
+
+      .figureBaguette,
+      .figureFarmers {
+        background-position: center;
+        height: 441px;
+      }
+
+      .spacing {
+        padding: 3.4375rem 2.5rem;
+      }
+    }
+  }
+}
+
+.bg-sweets {
+  background-color: $mainBg;
+  padding: 4.375rem 0 8.75rem;
+  text-align: center;
+
+  h2 {
+    font: 800 2.8125rem RalewayEB;
+    padding: 0 0 3.125rem;
+    text-transform: capitalize;
+    color: $white;
+  }
+
+  .bg-item {
+    background-color: $white;
+    @extend %boxShadow;
+    border-radius: 1.25rem;
+    padding: 1.875rem 1.25rem;
+
+    img {
+      width: 209px;
+      height: 209px;
+      border-radius: 50%;
+      margin: 0 0 1.25rem 0;
+    }
+
+    @media screen and (min-width: 340px) and (max-width: 576px) {
+      img {
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        margin: 0 0 1.25rem 0;
+      }
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 719px) {
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin: 0 0 1.25rem 0;
+      }
+    }
+
+    h4 {
+      font: 700 1.125rem MontserratB;
+      text-transform: uppercase;
+      margin: 0 0 1.25rem 0;
+      color: $black;
+    }
+
+    p {
+      font: 400 1rem OpenSans;
+      padding: 0 0 1.25rem;
+      font-style: italic;
+      width: 226px;
+      margin: auto;
+      color: $black;
+
+      .text-underline {
+        cursor: pointer;
+        text-decoration: underline;
+        transition: all 0.5s;
+      }
+
+      .text-underline:hover {
+        text-decoration: none;
+      }
+    }
+
+    button {
+      font: 400 1rem OpenSans;
+      background-color: $white;
+      border: none;
+      text-decoration: underline;
+      cursor: pointer;
+      color: $black;
+
+      &:hover {
+        color: $mainBg;
+      }
+    }
+  }
+}
+
+.dark {
+  .bg-sweets {
+    background-color: $darkBg;
+
+    .bg-item {
+      background-color: $darkWallPaper;
+    }
+
+    button {
+      background-color: $darkWallPaper;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "TitleHome": "Home",
+  "TitleAbout": "About",
+  "TitleMenu": "Menu",
+  "TitleNoConnection": "No Connection",
+  "TitleNotFound": "Not Found",
+
+  "DarkMode":"DarkMode",
+  "LightMode":"LightMode",
+  
+  "TitleHome1": "baked fresh daily",
+  "TitleHome2": "by bakers",
+  "Location": "245 W 27ST ST, NEW YORK, NY 1001",
+  "Time1": "monday - wednesday 9am - 7pm",
+  "Time2": "thursday - saturday 9am - 8pm",
+  "Time3": "sunday 9am - 6pm",
+  "ViewProducts": "view products",
+
+  "TitleBaker": "We’d Like to Hear from You.",
+  "PBaker": "We are leaders in the manufacture and distribution of frozen doughs, with an extensive range of bread and pastries and a management oriented to satisfy the needs of our customers.",
+
+  "Breads": "breads",
+  "Cookies": "cookies",
+  "Pastries": "pastries",
+  "PublicText1": "Sample text. Click to select the text box.",
+  "PublicText2": "click again or double click to start editing the text.",
+
+  "TitleDescription1": "fresh bread & baked goods",
+  "TitleDescription2": "Baked fresh daily by bakers with passion",
+
+  "TitleImg": "There are the best types of bread, pastries, cakes, biscuits and pizza with all entertainment services. There is also a home delivery service and the price includes delivery. There are also salads and soft drinks.",
+  "TitleChief": "quality breads are baked daily",
+
+  "TitleBreads": "quality Bread",
+  "BreadDescription1": "We excel in the business of human potential, and believe in its power to shape strategic, organizational, economic, and societal change. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "BreadDescription2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Image from.",
+  "OurValues": "our values",
+
+  "Baguette": "baguette",
+  "MiniPizza": "mini pizza",
+  "Scone": "scone",
+  "TextDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+  "TitleTraditions": "our traditions",
+  "TraditionText1": "Freshest baked treats",
+  "TraditionText2": "Bread Difference",
+  "TraditionText3": "Carefully sourced ingredients",
+  "TraditionDescription": "The price includes delivery, and there are also salads and soft drinks. There are also discounts for new customers. There are also discounts for new customers. Our branches are located all over the world.",
+
+  "TitleGoal": "We've had one goal to bake the best tasting breads, cakes and pastries.",
+  "GoalDescription": "Except that there is an unexpected desire, it is guilty that the office deprives its identity of strategic, organizational, economic and societal work. For a price that includes delivery, there are also salads and soft drinks.",
+
+  "TitlePrice": "We bake fresh, handmade bread, pastries and cakes every day.",
+  "SourdoughLoaf": "sourdough loaf",
+  "FarmersLoaf": "farmers loaf",
+  "RoundBread": "round bread",
+  "SourdoughDes": "The best dough bread.",
+  "SourdoughPrice": "$4.65",
+  "BaguetteDes": "Small-batch sourdough baguette.",
+  "BaguettePrice": "$3.05",
+  "FarmerDes": "Slow-fermented sourdough Rye studded with Kalamata.",
+  "FarmerPrice": "$5.50",
+  "RoundDes": "Made with 100% whole grain flour and high in fiber.",
+  "RoundPrice": "$5.15",
+
+  "TitleSweets": "brownies, pastries, etc.",
+  "SweetsDes1": "Sample text.click to select the text box.",
+  "SweetsDes2": "Click again",
+  "SweetsDes3": "double click to start editing the text.",
+  "Croissant": "croissant",
+  "Brownies": "brownies",
+  "CinnamonBun": "cinnamon bun",
+  "TurkishBagels": "turkish bagels",
+  "Doughunts": "doughunts",
+  "TARTS": "tarts",
+  "ShortBread": "shortbread",
+  "SweetsBtn": "more",
+
+  "Headline":"headline",
+  "SampleText":"sample text."
+}

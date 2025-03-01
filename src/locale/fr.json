@@ -1,0 +1,81 @@
+{
+  "TitleHome": "Principale",
+  "TitleAbout": "À Propos",
+  "TitleMenu": "Le Menu",
+  "TitleNoConnection": "Pas de connection",
+  "TitleNotFound": "Pas trouvé",
+
+  "DarkMode": "ModeSombre",
+  "LightMode": "ModeLumière",
+
+  "TitleHome1": "cuit frais tous les jours",
+  "TitleHome2": "par les boulangers",
+  "Location": "245 Ouest 27ST ST, NEW YORK, NY 1001",
+  "Time1": "lundi - mercredi 9h - 19h",
+  "Time2": "jeudi - samedi 9h - 20h",
+  "Time3": "sunday 9am - 6pm",
+  "ViewProducts": "voir les produits",
+
+  "TitleBaker": "Nous aimerions avoir de vos nouvelles.",
+  "PBaker": "Nous sommes leaders dans la fabrication et la distribution de pâtes surgelées, avec une large gamme de pain et de pâtisserie et une gestion orientée pour satisfaire les besoins de nos clients.",
+
+  "Breads": "pains",
+  "Cookies": "biscuits",
+  "Pastries": "des pâtisseries",
+  "PublicText1": "Exemple de texte. Cliquez pour sélectionner la zone de texte.",
+  "PublicText2": "cliquez à nouveau ou double-cliquez pour commencer à éditer le texte.",
+
+  "TitleDescription1": "pain frais et produits de boulangerie pain",
+  "TitleDescription2": "Cuits frais tous les jours par des boulangers passionnés",
+
+  "TitleImg": "On y trouve les meilleurs types de pains, pâtisseries, gâteaux, biscuits et pizzas avec tous les services d'animation. Il existe également un service de livraison à domicile et le prix comprend la livraison. Il y a aussi des salades et des boissons gazeuses.",
+  "TitleChief": "des pains de qualité sont cuits quotidiennement",
+
+  "TitleBreads": "pain de qualité",
+  "BreadDescription1": "Nous excellons dans le domaine du potentiel humain et croyons en son pouvoir pour façonner le changement stratégique, organisationnel, économique et sociétal. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "BreadDescription2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Image de.",
+  "OurValues": "nos valeurs",
+
+  "Baguette": "baguette",
+  "MiniPizza": "petit pizza",
+  "Scone": "scone",
+  "TextDescription": "Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo conséquent.",
+  
+  "TitleTraditions": "nos traditions",
+  "TraditionDescription": "Le prix comprend la livraison, ainsi que des salades et des boissons gazeuses. Il existe également des réductions pour les nouveaux clients. Nos succursales sont situées partout dans le monde.",
+  "TraditionText1": "Les friandises les plus fraîches",
+  "TraditionText2": "Différence de pain",
+  "TraditionText3": "Des ingrédients soigneusement sélectionnés",
+
+  "TitleGoal": "Nous avons eu un seul objectif préparer les pains, gâteaux et pâtisseries les plus savoureux.",
+  "GoalDescription": "Sauf qu'il y a une volonté inattendue, c'est coupable que le bureau prive son identité de travail stratégique, économique et sociétal. Pour un prix qui comprend la livraison.",
+
+  "TitlePrice": "Nous préparons chaque jour du pain, des pâtisseries et des gâteaux frais et faits à la main.",
+  "SourdoughLoaf": "pain au levain",
+  "FarmersLoaf": "pain de fermier",
+  "RoundBread": "pain rond",
+  "SourdoughDes": "Le meilleur pain de pâte.",
+  "SourdoughPrice": "$4.65",
+  "BaguetteDes": "Baguette au levain en petites quantités.",
+  "BaguettePrice": "$3.05",
+  "FarmerDes": "Levain de seigle à fermentation lente parsemé de Kalamata.",
+  "FarmerPrice": "$5.50",
+  "RoundDes": "Fabriqué avec de la farine de grains entiers à 100 % et riche en fibres.",
+  "RoundPrice": "$5.15",
+
+  "TitleSweets": "brownies, pâtisseries, etc.",
+  "SweetsDes1": "Exemple de texte. Cliquez pour sélectionner la zone de texte.",
+  "SweetsDes2": "Cliquez à nouveau",
+  "SweetsDes3": "double-cliquez pour commencer à éditer le texte.",
+  "Croissant": "croissant",
+  "Brownies": "brownies",
+  "CinnamonBun": "brioche à la cannelle",
+  "TurkishBagels": "bagels turcs",
+  "Doughunts": "beignets",
+  "TARTS": "tarts",
+  "ShortBread": "sables",
+  "SweetsBtn": "plus",
+
+  "Headline": "gros titre",
+  "SampleText": "exemple de texte."
+}
